@@ -1,0 +1,28 @@
+.app{
+    background-color: #f5f2f7;
+    height: 1024px;
+    width: 100%;
+}
+
+.app .title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.app > .multiplication-wrapper{
+    color: #333333;
+}
+
+.app > .multiplication-wrapper > input{
+    width: 220px;
+    height: 32px;
+    padding: 16px 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.app .answer-wrapper {
+    margin: 16px 0;
+    
+} 

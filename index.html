@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Web workers in javascript">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta name="keywords" content="web workers">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="app">
+            <h4 class="title">Multiplication of below numbers</h4>
+            <div class="multiplication-wrapper">
+                <form id="multiply-form" onsubmit="multiply(event)">
+                    <label for="value-1">Value 1
+                        <input name="value-1" type="text" id="value-1">
+                    </label>
+                    <label for="value-2">Value 2
+                        <input type="text" name="value-2" id="value-2">
+                    </label>
+                    <button type="submit">Multiply</button>
+                </form>
+            </div>
+
+            <div class="answer-wrapper">
+                <label>
+                    ANSWER
+                    <input type="text" id="answer" readonly aria-readonly="true" value="">
+                </label>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+
+</HTML>
